@@ -3,4 +3,5 @@ This repository contains a bunch of pet-projects that were implemented during le
 These projects are not intended for production using :smile
 
 ## Projects
-- [Yaml Parser (Ruby)](yaml-parser-ruby/README.md)
+- [Yaml Parser](yaml-parser-ruby/README.md) (Ruby)
+- [ReactJS Test-Project](react-bootcamp-typescript/README.md) (TypeScript)

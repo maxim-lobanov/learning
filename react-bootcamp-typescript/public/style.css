@@ -1,0 +1,100 @@
+.toastMessage {
+    /**
+    Override toastr property to make toastr more round 
+    */
+    border-radius: 10px !important;
+}
+
+.toastContainer {
+  margin-top: 40px;
+}
+
+body {
+	background: #eee;	
+}
+
+.center-text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+
+.user-photo {
+    height: 150px;
+    width: 150px;
+    margin: 4px;
+}
+
+.user-list {
+    margin: 20px;
+}
+
+.user-filter {
+    margin-bottom:20px; 
+}
+
+.login-form-margin {	
+	margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-signin {
+    max-width: 480px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.form-signin-heading {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#signin{
+    margin-top: 7px;
+}
+
+input.large-checkbox{
+    width: 15px;
+    height:15px;
+}
+
+.bottom-btn{
+  position:absolute; 
+  right:15px; 
+  bottom:15px;
+  max-width: 200px;
+}
+
+.top-card-title{
+  position:absolute; 
+  left:170px; 
+  top:15px;
+}
+
+.card-border{
+  border:3px solid rgba(0,0,0,.125) !important
+}
