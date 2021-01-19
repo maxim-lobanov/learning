@@ -1,5 +1,5 @@
 # ReactBootcamp
-Application was implemented as a part of "ReactJS bootcamp" to look into reactJS  
+Application was implemented as a part of "ReactJS bootcamp" to look into JavaScript and ReactJS  
 Mockups: https://ninjamock.com/s/SFN77Wx  
 Application has 4 screens:
 1. Login screen:

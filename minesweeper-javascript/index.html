@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Minesweeper</title>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="inline">
+            <pre>Column count: <input type="number" name="colcount" min="10" max="50" value="10"></pre>
+            <pre>Row count:    <input type="number" name="rowcount" min="10" max="50" value="10"></pre>
+        </div>
+        <div class="inline center" align="center">
+            <button class="button" onclick="newGame()">New game</button>
+        </div>
+        <div class="inline right">
+                <pre>Bomb count: <input type="number" name="bombcount" min="10" max="500" value="20"></pre>
+        </div>
+        <br/>
+        <div id="game-window" />
+    </body>
+</html>

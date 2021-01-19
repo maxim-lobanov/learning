@@ -1,0 +1,230 @@
+.right-placed-ships {
+    background-color: rgba(0, 255, 102, 0.563);
+}
+
+.wait-placed-ships {
+    background-color: rgba(245, 205, 111, 0.624)
+}
+
+.wrong-placed-ships {
+    background-color: rgba(255, 0, 0, 0.467);
+}
+
+.battlelog {
+    width: 230px;
+    display: inline-block;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-header {
+    float: left;
+}
+
+.navbar-inverse {
+    background-color: rgb(84, 112, 150);
+    border-color: #466697;
+}
+
+.navbar-brand {
+    float: left;
+    height: 30px;
+    padding: 20px 15px;
+    font-size: 40px;
+    line-height: 20px;
+    font-family: 'Baskerville Old Face';
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ddd5d5;
+    text-decoration: none;
+}
+
+button {
+    display: inline-block;
+    height: 40px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+}
+
+.button-green {
+    
+    color: #FFF;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.button-blue {    
+    color: #FFF;
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.button-orange {        
+    color: #FFF;
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+.button-red {
+    color: #FFF; 
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+.button-white {
+    color: #555; 
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+}
+
+.base-font {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.menu-form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.popup-form{
+    position: fixed;
+    z-index: 101;
+    background: #FFFFFF;
+    width: 33%;
+    height: 100px;
+    margin: 100px 33%;
+    padding: 45px;
+    text-align: center;
+    opacity: 1;
+}
+
+.menu-title {
+    margin: 10px 10px 20px 20px;
+    font-size: 24pt;
+    font-family: 'Baskerville Old Face';
+}
+
+.game-field {
+    width: 49%;
+    float: left;
+    padding: 3px;
+}
+
+.inline-field {
+    display: inline-block;
+}
+
+.ships-list {
+    margin: 6px;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 7px 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(38, 35, 35);
+}
+
+td {
+    font-size: 16px;
+}
+
+.game-prepare {
+    float:left;
+    margin-right: 3px;
+}
+
+.gameLabel {
+    font-size: 20px;
+    font-family: 'Baskerville Old Face';
+    cursor:default;
+    display: inline-block;
+    height: 40px;
+    padding: 0 30px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.right-floating {
+    float: right;
+}
+
+.information-message {
+    font-size: 24px;
+}
+
+.br{
+    margin-top: 15px;
+}
+
+.popup-overlay {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.30;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}

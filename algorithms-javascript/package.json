@@ -1,0 +1,30 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "set of popular algorithms",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrazyPerceptron/learningJS"
+  },
+  "keywords": [
+    "algorithm",
+    "binary heap",
+    "binary sort"
+  ],
+  "author": "Maxim Lobanov",
+  "license": "ISC",
+  "homepage": "https://github.com/CrazyPerceptron/learningJS#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "babel-eslint": "^8.0.3",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}

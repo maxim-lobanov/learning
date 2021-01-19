@@ -1,4 +1,4 @@
-# Yaml Parser (Ruby)
+# Yaml Parser
 The one of the first projects in Ruby.  
 This project contains code that can parse YAML files to object and convert objects to YAML files. Project is covered by unit tests (Test::Unit) and e2e tests (RSpec).
 

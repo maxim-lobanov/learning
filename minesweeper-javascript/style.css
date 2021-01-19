@@ -1,0 +1,19 @@
+.button {
+    border: 1px outset blue;
+    background-color: lightBlue;
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.center {
+    vertical-align: top;
+}
+
+.right {
+    float: right;
+}
+
+.inline {
+    display: inline-block;
+}

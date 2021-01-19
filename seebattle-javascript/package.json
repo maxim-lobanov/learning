@@ -1,0 +1,39 @@
+{
+  "name": "seebattle",
+  "version": "1.0.0",
+  "description": "Am learning JS. Trying to implement the first application on ReactJS. It will be SeeBattle. It will support game with AI and with other user (multiplayer).",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "srv": "nodemon server/app.js",
+    "srvrun": "node server/app.js"
+  },
+  "proxy": "http://localhost:3001",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrazyPerceptron/learningJS"
+  },
+  "keywords": [
+    "seebattle",
+    "reactJS"
+  ],
+  "author": "Maxim Lobanov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express-session": "^1.15.6",
+    "ip": "^1.1.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.0.17",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint-config-google": "^0.9.1",
+    "nodemon": "^1.12.6"
+  }
+}
